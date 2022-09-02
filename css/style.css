@@ -1,0 +1,75 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.task-app-header{
+    background-color: #161620;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.add-task button{
+    padding: 7px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: #161620;
+    cursor: pointer;
+}
+.add-task button span{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0px 3px;
+}
+section .task-list .task-items{
+    background-color: #161620;
+    border-radius: 8px;
+}
+section .search-bar .search-txt{
+    margin-right: 3px;
+    border-radius: 8px 0px 0px 8px;
+}
+section .search-bar .search-txt input{
+    font-size: 18px;
+}
+section .search-bar .search-btn{
+    border: 1px solid #ced4da;
+    background-color: #161620;
+    padding: 0px 5px;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    color: #ced4da;
+}
+.edit-delete-btn button{
+    border: none;
+    border-radius: 5px;
+    padding: 7px 6px;
+    transition: all .3s ease;
+}
+.edit-delete-btn button:hover{
+    background-color: #cbd0d4;
+}
+.task-img img{
+    border-radius: 8px;
+}
+.open-task{
+    text-align: right;
+}
+.open-task-btn{
+    border-radius: 5px;
+    border: none;
+   font-size: 18px;
+   font-weight: bold;
+
+}
+.open-task-btn:hover{
+    background-color: #cbd0d4;
+}
+.close{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    background: none;
+}
